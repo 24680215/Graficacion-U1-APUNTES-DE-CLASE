@@ -1,24 +1,17 @@
 # 🎨 Graficación por Computadora - Unidad I
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Subject-Computer%20Graphics-blue?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Level-Engineering-orange?style=for-the-badge">
-</p>
-
 ---
 
 ## 📑 Índice
 
-* [🧠 Historia y evolución](#-1-historia-y-evolución-de-la-graficación-por-computadora)
-* [🌐 Áreas de aplicación](#-2-áreas-de-aplicación)
-* [📐 Aspectos matemáticos](#-3-aspectos-matemáticos-de-la-graficación)
-* [🎨 Modelos de color](#-4-modelos-de-color-rgb-cmy-hsv-y-hsl)
-* [📏 Líneas y polígonos](#-5-representación-y-trazo-de-líneas-y-polígonos)
-* [🖼️ Formatos de imagen](#-51-formatos-de-imagen)
-* [🖥️ Mapas de bits](#-6-procesamiento-de-mapas-de-bits)
-* [📚 Bibliografía](#-7-bibliografía)
-
+* [🧠 Historia y evolución](#1-historia-y-evolucion-de-la-graficacion-por-computadora)
+* [🌐 Áreas de aplicación](#2-areas-de-aplicacion)
+* [📐 Aspectos matemáticos](#3-aspectos-matematicos-de-la-graficacion)
+* [🎨 Modelos de color](#4-modelos-de-color-rgb-cmy-hsv-y-hsl)
+* [📏 Líneas y polígonos](#5-representacion-y-trazo-de-lineas-y-poligonos)
+* [🖼️ Formatos de imagen](#51-formatos-de-imagen)
+* [🖥️ Mapas de bits](#6-procesamiento-de-mapas-de-bits)
+* [📚 Bibliografía](#7-bibliografia)
 ---
 
 # 🧠 1. Historia y evolución de la graficación por computadora
@@ -47,7 +40,9 @@ La **graficación por computadora** es el conjunto de técnicas que permiten gen
 ## 🔹 Importancia
 
 ✔ Permite visualizar información compleja
+
 ✔ Base de videojuegos, cine y simulación
+
 ✔ Mejora la interacción humano-computadora
 
 ---
@@ -201,6 +196,9 @@ Utilizado en impresión.
 | CMY     | Impresión        |
 | HSV/HSL | Edición de color |
 
+Ejemplo:
+<img width="1115" height="632" alt="image" src="https://github.com/user-attachments/assets/59b94679-fd30-41b8-8412-2720f7433414" />
+
 ---
 
 # 📏 5. Representación y trazo de líneas y polígonos
@@ -246,6 +244,10 @@ Tipos:
 | GIF     | Animaciones                | Web          |
 | TIFF    | Alta calidad               | Profesional  |
 
+Ejemplos:
+<img width="1123" height="668" alt="image" src="https://github.com/user-attachments/assets/644546e5-02bb-436a-87c3-005446ea5b69" />
+<img width="903" height="504" alt="image" src="https://github.com/user-attachments/assets/7480cda0-b69e-4c9a-a779-726a90d6cedd" />
+
 ---
 
 # 🖥️ 6. Procesamiento de mapas de bits
@@ -284,7 +286,9 @@ Un **mapa de bits** es una representación de imagen basada en píxeles.
 ## 🔹 Importancia
 
 ✔ Base del procesamiento digital de imágenes
+
 ✔ Fundamental en visión por computadora
+
 ✔ Usado en edición y análisis de imágenes
 
 ---
@@ -297,15 +301,3 @@ Un **mapa de bits** es una representación de imagen basada en píxeles.
 * Angel, E., & Shreiner, D. (2015). *Interactive Computer Graphics*. Addison-Wesley.
 * Gonzalez, R. C., & Woods, R. E. (2018). *Digital Image Processing*. Pearson.
 
----
-
-# 🚀 Notas finales
-
-> 📌 Este documento resume los fundamentos de la **Graficación por Computadora**, abordando tanto aspectos teóricos como aplicaciones prácticas.
-
-> 💡 Ideal para estudiantes de ingeniería, desarrollo de videojuegos, diseño gráfico y simulación.
-
----
-
-Si quieres, te lo puedo dejar todavía más pro 🔥
-con imágenes, diagramas, GIFs o hasta estructura de repo (carpetas, código, ejemplos en Python o OpenGL).
