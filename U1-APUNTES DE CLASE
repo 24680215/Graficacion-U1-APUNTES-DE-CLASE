@@ -1,243 +1,226 @@
-Graficación - Unidad I
+# 🎮 Graficación por Computadora - Unidad I
 
-> 📚 U1-APUNTES DE CLASE
+<p align="center">
+  <img src="https://img.shields.io/badge/Asignatura-Graficación%20por%20Computadora-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Unidad-I-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Autor-Christopher-orange?style=for-the-badge" />
+</p>
 
 ---
 
 ## 📑 Índice
 
-🔹 1. Historia y evolución de la graficación por computadora
-🔹 2. Áreas de aplicación
-🔹 3. Aspectos matemáticos de la graficación
-🔹 4. Modelos de color: RGB, CMY, HSV y HSL
-🔹 5. Representación y trazo de líneas y polígonos
-  🔹 5.1 Formatos de imagen
-🔹 6. Procesamiento de mapas de bits
-🔹 7. Bibliografía
+* 🔹 1. Historia y evolución de la graficación por computadora
+* 🔹 2. Áreas de aplicación
+* 🔹 3. Aspectos matemáticos de la graficación
+* 🔹 4. Modelos de color: RGB, CMY, HSV y HSL
+* 🔹 5. Representación y trazo de líneas y polígonos
+
+  * 🔹 5.1 Formatos de imagen
+* 🔹 6. Procesamiento de mapas de bits
+* 🔹 7. Bibliografía
 
 ---
 
-## 🕰️ 1. Historia y evolución de la graficación por computadora
+## 🧠 1. Historia y evolución de la graficación por computadora
 
-La graficación por computadora es una rama de la informática que se encarga de generar, manipular y representar imágenes digitales mediante algoritmos y hardware especializado.
+La graficación por computadora es una disciplina que permite generar, manipular y representar imágenes digitales mediante algoritmos matemáticos y hardware especializado.
 
-### 🔹 Etapas importantes
+### 🔹 Evolución histórica
 
-**🔹 Década de 1950:**
-🔹 Gráficos vectoriales simples
-🔹 Pantallas monocromáticas
-🔹 Representación científica
+* 🔹 **1950s:** gráficos vectoriales básicos en pantallas monocromáticas.
+* 🔹 **1960s:** desarrollo de *Sketchpad*, primer sistema interactivo.
+* 🔹 **1970s:** introducción de gráficos raster (píxeles).
+* 🔹 **1980s:** aparición de interfaces gráficas (GUI).
+* 🔹 **1990s:** desarrollo de GPUs y gráficos 3D.
+* 🔹 **Actualidad:** realidad virtual, ray tracing e inteligencia artificial.
 
-**🔹 Década de 1960:**
-🔹 Desarrollo de Sketchpad
-🔹 Aparición del CAD
+### 🔹 Importancia
 
-**🔹 Década de 1970:**
-🔹 Introducción de gráficos raster
-🔹 Algoritmos como Bresenham
-
-**🔹 Década de 1980:**
-🔹 Interfaces gráficas (GUI)
-🔹 Videojuegos y software gráfico
-
-**🔹 Década de 1990:**
-🔹 Aparición de GPUs ⚡
-🔹 Gráficos 3D
-🔹 Animación digital
-
-**🔹 Actualidad:**
-🔹 Realidad virtual 🥽
-🔹 Inteligencia artificial 🤖
-🔹 Renderizado en tiempo real
+* 🔹 Permite representar información visualmente.
+* 🔹 Es base de videojuegos, cine y simulación.
+* 🔹 Facilita el diseño y la comunicación gráfica.
 
 ---
 
 ## 🌐 2. Áreas de aplicación
 
-La graficación por computadora se aplica en múltiples disciplinas.
+La graficación por computadora tiene múltiples aplicaciones en diferentes áreas.
 
 ### 🔹 Principales áreas
 
-**🎮 Videojuegos:**
-🔹 Entornos 2D y 3D
-🔹 Animaciones en tiempo real
-🔹 Simulación física
+#### 🎮 Videojuegos
 
-**🎬 Cine y animación:**
-🔹 Efectos especiales (VFX)
-🔹 Animación digital
-🔹 Modelado de personajes
+* 🔹 Entornos 2D y 3D
+* 🔹 Animaciones en tiempo real
+* 🔹 Simulación física
 
-**🏗️ CAD:**
-🔹 Arquitectura
-🔹 Ingeniería
-🔹 Prototipos
+#### 🎬 Cine y animación
 
-**🏥 Medicina:**
-🔹 Imágenes médicas
-🔹 Simulación quirúrgica
+* 🔹 Efectos visuales (VFX)
+* 🔹 Animación digital
+* 🔹 Modelado de personajes
 
-**🚗 Simulación:**
-🔹 Entrenamiento
-🔹 Simulación industrial
+#### 🏗️ CAD (Diseño asistido por computadora)
 
-**🥽 Realidad virtual:**
-🔹 Entornos inmersivos
-🔹 Educación interactiva
+* 🔹 Diseño arquitectónico
+* 🔹 Ingeniería
+* 🔹 Prototipos digitales
 
-**📊 Educación:**
-🔹 Visualización de datos
-🔹 Simulación científica
+#### 🏥 Medicina
+
+* 🔹 Imágenes médicas
+* 🔹 Simulación quirúrgica
+
+#### 🧪 Ciencia y educación
+
+* 🔹 Visualización de datos
+* 🔹 Simulaciones
+
+#### 🥽 Realidad virtual y aumentada
+
+* 🔹 Entornos inmersivos
+* 🔹 Entrenamiento interactivo
 
 ---
 
 ## 📐 3. Aspectos matemáticos de la graficación
 
-La base de la graficación es matemática.
+La graficación por computadora se fundamenta en las matemáticas.
 
 ### 🔹 Geometría analítica
 
-🔹 Representación de figuras mediante ecuaciones
+* 🔹 Representación de figuras mediante ecuaciones.
 
 ### 🔹 Álgebra lineal
 
-🔹 Vectores
-🔹 Matrices
-🔹 Espacios vectoriales
+* 🔹 Vectores
+* 🔹 Matrices
+* 🔹 Transformaciones
 
-### 🔹 Transformaciones
+### 🔹 Transformaciones geométricas
 
-🔹 Traslación → mover
-🔹 Rotación → girar
-🔹 Escalado → cambiar tamaño
-🔹 Reflexión → invertir
-
-👉 Se realizan con matrices.
-
-### 🔹 Trigonometría
-
-🔹 Cálculo de ángulos y rotaciones
+* 🔹 **Traslación:** mover objetos
+* 🔹 **Rotación:** girar objetos
+* 🔹 **Escalado:** cambiar tamaño
+* 🔹 **Reflexión:** invertir figuras
 
 ### 🔹 Sistemas de coordenadas
 
-🔹 Cartesianas (x, y, z)
-🔹 Polares
+* 🔹 Cartesianas (x, y, z)
+* 🔹 Polares
 
 ### 🔹 Interpolación
 
-🔹 Animación
-🔹 Sombras
-🔹 Texturas
+* 🔹 Animación
+* 🔹 Sombreado
+* 🔹 Texturas
 
 ---
 
-## 🎨 4. Modelos de color
+## 🎨 4. Modelos de color: RGB, CMY, HSV y HSL
+
+Los modelos de color permiten representar colores numéricamente.
 
 ### 🔹 RGB (Red, Green, Blue)
 
-🔹 Modelo aditivo
-🔹 Uso en pantallas
-🔹 Valores de 0 a 255
+* 🔹 Modelo aditivo
+* 🔹 Usado en pantallas
 
+```
 Ejemplo:
-🔹 (255,0,0) → rojo
-🔹 (0,255,0) → verde
-🔹 (0,0,255) → azul
-
----
+(255, 0, 0) = Rojo
+(0, 255, 0) = Verde
+(0, 0, 255) = Azul
+```
 
 ### 🔹 CMY (Cyan, Magenta, Yellow)
 
-🔹 Modelo sustractivo
-🔹 Uso en impresión
-🔹 Absorbe luz
+* 🔹 Modelo sustractivo
+* 🔹 Usado en impresión
 
----
+### 🔹 HSV
 
-### 🔹 HSV (Hue, Saturation, Value)
+* 🔹 Hue (tono)
+* 🔹 Saturation (intensidad)
+* 🔹 Value (brillo)
 
-🔹 Tono
-🔹 Saturación
-🔹 Brillo
+### 🔹 HSL
 
----
-
-### 🔹 HSL (Hue, Saturation, Lightness)
-
-🔹 Similar a HSV
-🔹 Usa luminosidad
+* 🔹 Hue
+* 🔹 Saturation
+* 🔹 Lightness (luminosidad)
 
 ---
 
 ## 📏 5. Representación y trazo de líneas y polígonos
 
-### 🔹 Líneas
+Las líneas y polígonos son la base de los gráficos.
 
-🔹 Algoritmo DDA
-🔹 Algoritmo de Bresenham
+### 🔹 Algoritmos de líneas
+
+#### 🔹 DDA
+
+* 🔹 Fácil implementación
+* 🔹 Menos eficiente
+
+#### 🔹 Bresenham
+
+* 🔹 Usa enteros
+* 🔹 Más eficiente
 
 ### 🔹 Polígonos
 
-🔹 Convexos
-🔹 Cóncavos
+* 🔹 Convexos
+* 🔹 Cóncavos
 
 ### 🔹 Procesos
 
-🔹 Rasterización
-🔹 Relleno
-
-### 🔹 Rasterización
-
-🔹 Convierte figuras en píxeles
+* 🔹 Rasterización
+* 🔹 Relleno de polígonos
 
 ---
 
 ### 🖼️ 5.1 Formatos de imagen
 
-🔹 **BMP** → sin compresión
-🔹 **JPEG** → con pérdida
-🔹 **PNG** → sin pérdida
-🔹 **GIF** → animaciones
-🔹 **TIFF** → alta calidad
+| Formato | Características              |
+| ------- | ---------------------------- |
+| BMP     | Sin compresión, alta calidad |
+| JPEG    | Compresión con pérdida       |
+| PNG     | Sin pérdida, transparencia   |
+| GIF     | Animaciones, 256 colores     |
+| TIFF    | Uso profesional              |
 
 ---
 
-## 🧠 6. Procesamiento de mapas de bits
+## 🖥️ 6. Procesamiento de mapas de bits
 
-🔹 Representación mediante píxeles
+Un mapa de bits es una matriz de píxeles.
 
 ### 🔹 Características
 
-🔹 Resolución
-🔹 Profundidad de color
-🔹 Tamaño
+* 🔹 Resolución
+* 🔹 Profundidad de color
+* 🔹 Tamaño de archivo
 
 ### 🔹 Operaciones
 
-**🔹 Filtrado:**
-🔹 Suavizado
-🔹 Bordes
+* 🔹 Filtrado (suavizado, bordes)
+* 🔹 Transformaciones (rotación, escalado)
+* 🔹 Ajustes (brillo, contraste)
+* 🔹 Compresión
 
-**🔹 Transformaciones:**
-🔹 Escalado
-🔹 Rotación
+### 🔹 Importancia
 
-**🔹 Ajustes:**
-🔹 Brillo
-🔹 Contraste
-🔹 Saturación
-
-**🔹 Compresión:**
-🔹 Reduce tamaño
-🔹 Con o sin pérdida
+* 🔹 Base de la edición de imágenes
+* 🔹 Procesamiento digital
 
 ---
 
 ## 📚 7. Bibliografía (APA)
 
-🔹 Foley, J. D. et al. (1996). *Computer Graphics: Principles and Practice*.
-🔹 Hearn, D. (2014). *Computer Graphics with OpenGL*.
-🔹 Rogers, D. F. (2001). *Procedural Elements for Computer Graphics*.
-🔹 Angel, E. (2015). *Interactive Computer Graphics*.
-🔹 Gonzalez, R. (2018). *Digital Image Processing*.
-
+* Foley, J. D., van Dam, A., Feiner, S. K., & Hughes, J. F. (1996). *Computer Graphics: Principles and Practice*. Addison-Wesley.
+* Hearn, D., & Baker, M. P. (2014). *Computer Graphics with OpenGL*. Pearson.
+* Rogers, D. F. (2001). *Procedural Elements for Computer Graphics*. McGraw-Hill.
+* Angel, E., & Shreiner, D. (2015). *Interactive Computer Graphics*. Addison-Wesley.
+* Gonzalez, R. C., & Woods, R. E. (2018). *Digital Image Processing*. Pearson.
