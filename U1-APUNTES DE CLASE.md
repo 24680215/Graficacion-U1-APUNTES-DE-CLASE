@@ -1,4 +1,4 @@
-# 🎨 Graficación por Computadora - Unidad I
+# 🎨 Graficación - Unidad I
 
 ---
 
@@ -293,7 +293,7 @@ Un **mapa de bits** es una representación de imagen basada en píxeles.
 
 ---
 
-# 📚 7. Bibliografía (APA)
+# 📚 7. Bibliografía
 
 * Foley, J. D., van Dam, A., Feiner, S. K., & Hughes, J. F. (1996). *Computer Graphics: Principles and Practice*. Addison-Wesley.
 * Hearn, D., & Baker, M. P. (2014). *Computer Graphics with OpenGL*. Pearson.
