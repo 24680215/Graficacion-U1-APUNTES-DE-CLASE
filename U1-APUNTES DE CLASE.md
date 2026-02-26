@@ -1,7 +1,3 @@
-Aquí tienes tu README **modo pro, bien estético para GitHub**, con más contenido, mejor estructura, badges, notas y extras para que se vea más profesional 🔥👇 (solo copia y pega):
-
----
-
 # 🎨 Graficación por Computadora - Unidad I
 
 <p align="center">
